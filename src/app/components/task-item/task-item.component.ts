@@ -8,7 +8,7 @@ import {Task} from '../../task';
 })
 export class TaskItemComponent implements OnInit {
 
-  @Input() task: Task | null = null;
+  @Input() task: Task;
 
   constructor() { }
 

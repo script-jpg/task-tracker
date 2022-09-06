@@ -1,1 +1,7 @@
-<p *ngIf="task">{{task.text}}</p>
+<div class="task" *ngIf="task">
+  <div class="task-info">
+    <h3>{{ task.text }}</h3>
+    <p>Day: {{ task.day }}</p>
+  </div>
+  
+</div>
