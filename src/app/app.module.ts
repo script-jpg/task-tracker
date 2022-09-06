@@ -8,6 +8,7 @@ import { ButtonComponent } from './components/button/button.component';
 import { HeaderComponent } from './components/header/header.component';
 import { AddTaskComponent } from './components/add-task/add-task.component';
 import { MainMenuComponent } from './components/main-menu/main-menu.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MainMenuComponent } from './components/main-menu/main-menu.component';
     MainMenuComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
